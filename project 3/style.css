@@ -1,0 +1,155 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"work sans";
+  }
+  html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+   /* background-color: red;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: ;
+    padding: 90px 50px;
+    padding-right: 200px;
+    padding-top: 290px;
+    padding-bottom: 100px;
+    padding-left: 190px;
+    grid:-70px ;
+}
+#left{
+  height: 100%;
+  width: 49%;
+/* background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+ 
+#left h1{
+  font-size: 360px;
+  font-weight: 400;
+  font-family: work sans;
+  line-height: 340px;
+  padding-left: 90px;
+} 
+#bottom-left{
+  height: 40%;*/
+  width: 100%;
+ /* background-color: yellow;*/
+} 
+#color{
+ /* background-color: blue;*/
+  font-size: 30px;
+  width:14%;
+  height: 80px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35%;
+  border: 3px solid black;
+  
+}
+#color h5{
+  font-size: 70px;
+  margin-right: 10PX;
+  padding-left: 60px;
+}
+#color1{
+  height: 40px;
+  width: 40px;
+  background-color: burlywood;
+  border-radius: 50%;
+}
+#color2{
+  height: 40px;
+  width: 40px;
+  background-color: brown;
+  border-radius: 50%;
+}
+#left h2{
+  margin-top: 90px;
+  font-size: 90px;
+  font-family: work sans;
+  padding-left: 80px;
+}
+#left p{
+  font-size: 60px;
+  width: 60%;
+  font-weight: 500;
+  color:#444;
+  line-height: 70px;
+  padding-left: 70px;
+}
+#right{
+  height: 90%;
+  width: 31%;
+ /* background-color: blue;*/
+  position: relative;
+}
+#right-top{
+  height: 10%;
+  width: 100%;
+ /* background-color: red;*/
+  font-size:60PX;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#right-top h4{
+  font-size: 70px;
+  font-weight: 500;
+  font-family: work sans;
+  margin-bottom: 1px
+}
+#right-top h5{
+  font-size: 50px;
+  padding-right: 30p
+  margin-bottom: 1px
+}
+#right-top h5 i{
+  color: gold;
+}
+#right img{
+ width: 100%;
+ height: 90%;
+ object-fit: cover;
+}
+#black-gola{
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(34,34,34);
+  color: white;
+  border-radius: 50%;
+  right: -15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 23%;
+}
+#black-gola h5{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: work sans;
+}
+#rotated{
+  position: absolute;
+  left: -10%;
+  bottom: 2%;
+  rotate: -90deg;
+  transform-origin: 0 0 ;
+  font-size: 80px;
+  font-weight: 600;
+  font-family: work sans;
+}
+#right-top h5{
+  margin-bottom: 1px;
+}
